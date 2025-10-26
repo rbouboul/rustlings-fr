@@ -11,6 +11,7 @@ mod tests {
        // TODO: Utilise un index de tuple pour accéder au deuxième élément de `numbers`
        // et assigne-le à une variable appelée `second`.
        // let second = ???;
+       let second = numbers.1;
 
        assert_eq!(second, 2, "Ce n'est pas le 2ème nombre du tuple !");
    }

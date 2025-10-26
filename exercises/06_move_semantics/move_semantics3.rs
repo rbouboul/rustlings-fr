@@ -1,5 +1,5 @@
 // TODO: Corrige l'erreur de compilation dans la fonction sans ajouter de nouvelle ligne.
-fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
+fn fill_vec(mut vec: Vec<i32>) -> Vec<i32> {
    vec.push(88);
 
    vec

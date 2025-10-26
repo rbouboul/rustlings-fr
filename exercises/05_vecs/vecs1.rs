@@ -4,6 +4,7 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     // TODO : Crée un vecteur appelé `v` contenant exactement les mêmes éléments que le tableau `a`.
     // Utilise la macro de vecteur.
     // let v = ???;
+    let v = vec![10, 20, 30, 40];
 
     (a, v)
 }

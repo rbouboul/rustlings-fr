@@ -4,6 +4,7 @@ fn vec_loop(input: &[i32]) -> Vec<i32> {
     for element in input {
         // TODO : Multiplie chaque élément du slice `input` par 2 et ajoute-le (push)
         // au vecteur `output`.
+        output.push(element * 2);
     }
 
     output
@@ -24,7 +25,7 @@ fn vec_map(input: &[i32]) -> Vec<i32> {
     input
         .iter()
         .map(|element| {
-            // ???
+            element * 2
         })
         .collect()
 }

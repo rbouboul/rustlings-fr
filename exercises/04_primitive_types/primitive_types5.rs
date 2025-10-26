@@ -3,6 +3,7 @@ fn main() {
 
    // TODO: Déstructure le tuple `cat` en une seule instruction pour que le println fonctionne.
    // let /* ton pattern ici */ = cat;
+   let (name, age) = cat;
 
    println!("{name} a {age} ans");
 }
