@@ -1,6 +1,6 @@
 // TODO: Corrige le corps de la fonction sans changer la signature.
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
 
 fn main() {
