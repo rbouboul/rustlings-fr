@@ -1,7 +1,7 @@
 // TODO: Corrige l'erreur de compilation sur cette fonction.
 fn picky_eater(food: &str) -> &str {
    if food == "fraise" {
-       "Miam !"
+       "Miam!"
    } else {
        "Je suppose que je peux manger ça."
    }
@@ -19,8 +19,8 @@ mod tests {
 
    #[test]
    fn yummy_food() {
-       // Cela signifie que l'appel de `picky_eater` avec l'argument "fraise" devrait retourner "Miam !".
-       assert_eq!(picky_eater("fraise"), "Miam !");
+       // Cela signifie que l'appel de `picky_eater` avec l'argument "fraise" devrait retourner "Miam!".
+       assert_eq!(picky_eater("fraise"), "Miam!");
    }
 
    #[test]
