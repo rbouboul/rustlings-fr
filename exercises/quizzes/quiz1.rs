@@ -11,9 +11,17 @@
 // TODO: Écris une fonction qui calcule le prix d'une commande de pommes en fonction
 // de la quantité achetée.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(apples_number: i32) -> i32 {
+    if apples_number <= 40 {
+        apples_number * 2
+    } else {
+        apples_number
+    }
+}
 
 fn main() {
     // Tu peux expérimenter ici si tu veux.
+    println!("{}", calculate_price_of_apples(35))
 }
 
 // Ne modifie pas les tests!

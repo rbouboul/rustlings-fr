@@ -9,6 +9,7 @@ fn main() {
    // TODO: Définis une variable booléenne avec le nom `is_evening` avant l'instruction `if` ci-dessous.
    // La valeur de la variable doit être la négation (opposé) de `is_morning`.
    // let …
+   let is_evening = !is_morning;
    if is_evening {
        println!("Bonsoir !");
    }

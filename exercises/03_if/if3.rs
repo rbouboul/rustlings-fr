@@ -3,11 +3,11 @@ fn animal_habitat(animal: &str) -> &str {
     let identifier = if animal == "crabe" {
         1
     } else if animal == "spermophile" {
-        2.0
+        2
     } else if animal == "serpent" {
         3
     } else {
-        "Inconnu"
+        4
     };
 
     // Ne change pas l'expression ci-dessous !
