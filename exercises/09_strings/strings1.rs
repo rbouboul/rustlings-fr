@@ -1,6 +1,6 @@
 // TODO: Corrige l'erreur de compilation sans changer la signature de la fonction.
 fn current_favorite_color() -> String {
-    "blue"
+    String::from("blue")
 }
 
 fn main() {

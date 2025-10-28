@@ -1,13 +1,16 @@
 fn trim_me(input: &str) -> &str {
    // TODO: Supprime les espaces blancs des deux extrémités d'une chaîne.
+   input.trim()
 }
 
 fn compose_me(input: &str) -> String {
    // TODO: Ajoute " world!" à la chaîne ! Il y a plusieurs façons de faire cela.
+   String::from(input) + " world!"
 }
 
 fn replace_me(input: &str) -> String {
    // TODO: Remplace "cars" dans la chaîne par "balloons".
+   input.replace("cars", "balloons")
 }
 
 fn main() {

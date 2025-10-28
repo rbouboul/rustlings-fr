@@ -13,25 +13,25 @@ fn string(arg: String) {
 // Ta tâche est de remplacer `placeholder(…)` par soit `string_slice(…)`
 // soit `string(…)` selon ce que tu penses que chaque valeur est.
 fn main() {
-   placeholder("blue");
+   string_slice("blue");
 
-   placeholder("red".to_string());
+   string("red".to_string());
 
-   placeholder(String::from("hi"));
+   string(String::from("hi"));
 
-   placeholder("rust is fun!".to_owned());
+   string("rust is fun!".to_owned());
 
-   placeholder("nice weather".into());
+   string("nice weather".into());
 
-   placeholder(format!("Interpolation {}", "Station"));
+   string(format!("Interpolation {}", "Station"));
 
    // ATTENTION: Ceci est une indexation d'octets, pas une indexation de caractères.
    // L'indexation de caractères peut être faite en utilisant `s.chars().nth(INDEX)`.
-   placeholder(&String::from("abc")[0..1]);
+   string_slice(&String::from("abc")[0..1]);
 
-   placeholder("  hello there ".trim());
+   string_slice("  hello there ".trim());
 
-   placeholder("Happy Monday!".replace("Mon", "Tues"));
+   string("Happy Monday!".replace("Mon", "Tues"));
 
-   placeholder("mY sHiFt KeY iS sTiCkY".to_lowercase());
+   string("mY sHiFt KeY iS sTiCkY".to_lowercase());
 }
